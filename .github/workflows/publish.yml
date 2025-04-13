@@ -1,4 +1,4 @@
-name: Publish to npm
+name: Auto Bump & Publish to npm
 
 on:
   push:
@@ -7,7 +7,6 @@ on:
 
 jobs:
   publish:
-    name: Publish package
     runs-on: ubuntu-latest
 
     steps:
@@ -20,10 +19,20 @@ jobs:
           node-version: 20
           registry-url: https://registry.npmjs.org/
 
+      - name: Git config
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       - name: Install dependencies
         run: npm install
 
-      - name: Build package
+      - name: Bump version (patch)
+        run: |
+          npm version patch -m "chore(release): %s"
+          git push --follow-tags
+
+      - name: Build
         run: npm run build
 
       - name: Publish to npm

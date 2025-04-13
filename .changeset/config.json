@@ -1,0 +1,9 @@
+{
+  "changelog": ["@changesets/changelog-github", { "repo": "kritarth1107/sp1d-url" }],
+  "commit": true,
+  "linked": [],
+  "access": "public",
+  "baseBranch": "main",
+  "updateInternalDependencies": "patch",
+  "ignore": []
+}
