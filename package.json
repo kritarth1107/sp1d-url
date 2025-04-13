@@ -1,5 +1,5 @@
 {
-  "name": "@sp1d/url",
+  "name": "sp1d-url",
   "version": "1.0.0",
   "description": "Lightweight JS/TS URL shortener client with custom shortcodes and expiration support.",
   "main": "dist/index.js",

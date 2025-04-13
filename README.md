@@ -21,7 +21,7 @@ npm install sp1d-url
 ### TypeScript / ESModule
 
 ```ts
-import { Sp1d } from "@sp1d/url";
+import { Sp1d } from "sp1d-url";
 
 const sp1d = new Sp1d("your-api-key");
 
@@ -34,7 +34,7 @@ console.log(shortUrl);
 ### JavaScript / CommonJS
 
 ```js
-const { Sp1d } = require("@sp1d/url");
+const { Sp1d } = require("sp1d-url");
 
 const sp1d = new Sp1d("your-api-key");
 
