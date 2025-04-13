@@ -11,7 +11,7 @@
 ---
 
 
-**Simple URL Shortener Client for JS/TS projects**  
+**Simple URL Shortener Client for JS/TS project**  
 Easily shorten URLs using your custom API key, with support for custom shortcodes and expiration.
 
 ## ✨ Features
