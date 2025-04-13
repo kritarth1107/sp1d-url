@@ -1,0 +1,13 @@
+# Exclude dev-only files and dirs from npm package
+src/
+.vscode/
+.idea/
+node_modules/
+tsconfig.json
+tsup.config.ts
+.eslintrc.js
+.gitignore
+.npmignore
+README.md~
+*.log
+.env
