@@ -9,7 +9,7 @@ export class Sp1d {
   private apiKey: string;
   private baseUrl: string;
 
-  constructor(apiKey: string, baseUrl = 'https://api.sp1dy.com') {
+  constructor(apiKey: string, baseUrl = 'https://sp1dy.xyz/api/v1') {
     this.apiKey = apiKey;
     this.baseUrl = baseUrl;
   }
