@@ -1,6 +1,6 @@
 {
   "name": "sp1d-url",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Lightweight JS/TS URL shortener client with custom shortcodes and expiration support.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
